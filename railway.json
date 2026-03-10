@@ -1,0 +1,45 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "npm run build && npm start"
+  }
+}
+```
+
+---
+
+## Upload Checklist
+```
+✓ Rename session.ts → sessions.ts
+✓ Rename taconfig.json → tsconfig.json
+✓ Upload all 16 files into correct folders
+✓ Create .env.example in root
+✓ Create .gitignore in root
+✓ Create railway.json in root
+✗ Do NOT upload .env
+```
+
+The folder structure in the repo should look like this:
+```
+balance-server/
+├── src/
+│   ├── db/database.ts
+│   ├── middleware/rateLimit.ts
+│   ├── routes/sessions.ts
+│   ├── routes/vouchers.ts
+│   ├── routes/tips.ts
+│   ├── routes/withdrawals.ts
+│   ├── routes/donations.ts
+│   ├── routes/artworks.ts
+│   ├── routes/admin.ts
+│   ├── services/blink.ts
+│   ├── services/price.ts
+│   ├── scripts/reconcile.ts
+│   └── index.ts
+├── .env.example
+├── .gitignore
+├── package.json
+├── railway.json
+└── README.md
