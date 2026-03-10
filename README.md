@@ -1,6 +1,6 @@
 # Balance Server
 
-Lightning Network backend for the art installation.
+Lightning Network backend for the BALANCE art installation.
 
 ## Setup
 
