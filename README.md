@@ -1,4 +1,4 @@
-# Artsat Server
+# Balance Server
 
 Lightning Network backend for the art installation.
 
