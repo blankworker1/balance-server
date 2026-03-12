@@ -2,6 +2,9 @@
 
 Lightning Network backend for the BALANCE art installation.
 
+
+NOTE: not tested or fully working. See [SatsATM] for latest version 
+
 ## Setup
 
 ```bash
