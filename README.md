@@ -3,7 +3,7 @@
 Lightning Network backend for the BALANCE art installation.
 
 
-NOTE: not tested or fully working. See [SatsATM] for latest version 
+NOTE: not tested or fully working. See [SatsATM](https://github.com/blankworker1/SatsATM) for latest version 
 
 ## Setup
 
